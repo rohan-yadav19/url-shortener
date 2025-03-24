@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Short URL is a URL shortening service built using Node.js, Express.js, and MongoDB. It allows users to generate short, shareable URLs from long ones. The system stores the original URL in a database and redirects users when they visit the short link.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan-yadav19/url-shortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan-yadav19/url-shortener/issues"
+  },
+  "homepage": "https://github.com/rohan-yadav19/url-shortener#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
