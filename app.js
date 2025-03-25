@@ -1,7 +1,7 @@
 import { shortenedRoutes } from "./URLShortener/routes/url-shortener.js";
 import express from "express";
 
-const PORT = 3002;
+const PORT = 3000;
 const app = express();
 
 app.use(express.static("public"));
