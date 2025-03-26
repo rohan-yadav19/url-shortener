@@ -9,5 +9,5 @@ export const savelinks = async (link) => {
   return shortenerCollection.insertOne(link);
 };
 export const getlinksbyshortcode = async (shortcode) => {
-  return shortenerCollection.findOne({ shortCode: shortcode });
+  return await shortenerCollection.findOne({ shortCode: shortcode });
 };
